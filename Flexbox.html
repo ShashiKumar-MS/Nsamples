@@ -26,9 +26,23 @@
         .box5{
             background-color: purple;
         }
+        .container{
+            display: flex;
+        }
+        .box1, .box3, .box5
+        {
+            animation: ani 5s ease-in-out;
+            transform: rotate(90deg);
+        }
+        @keyframes ani {
+            0%{
+                background-color: white;
+            }
+
+        }
     </style>
 </head>
-<body>
+<body bgcolor="pink">
     <div class="container">
         <div class="box box1">this is a box 1</div>
         <div class="box box2">this is a box 2</div>
